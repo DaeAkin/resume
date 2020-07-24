@@ -11,46 +11,59 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: 'P&ID',
+      startedAt: '2020-07',
+      // endedAt: '2017-11',
+      where: '위엠비(WeMB)',
+      descriptions: [],
+    },
+
+    {
+      title: 'RENOBIT 빅데이터 시각화 솔루션',
+      startedAt: '2020-05',
+      // endedAt: '2017-11',
+      where: '위엠비(WeMB)',
+      descriptions: [
+        { content: 'Spring MVC 모델에서 M이 없는 VC 기반의 패턴을 MVC구조로 변경함' },
+        { content: '테스트 코드 작성' },
+        { content: '단일책임 원칙 적용' },
+      ],
+    },
+
+    {
       title: '웰바이 Admin 페이지 개발 및 API 개발',
       startedAt: '2019-07',
       endedAt: '2020-03',
-      where: '웰바이(Well-buy)',
+      where: '웰바이(Well-Buy)',
       descriptions: [
-        { content: 'Development and operation of Mashup API of Aggregation Layer' },
         {
-          content: 'Add Foo Feature in 2019',
+          content: 'API Server',
           weight: 'MEDIUM',
           descriptions: [
-            { content: 'Integer ut libero eu libero mattis rutrum at at urna' },
-            {
-              content: 'Integer non turpis ante',
-              href:
-                'https://speakerdeck.com/totuworld/yanoljaga-rejeoreul-panmaeharyeogo-hal-ddae-beoleojineun-il',
-            },
+            { content: '간편로그인' },
+            { content: '리뷰기능' },
+            { content: '즐겨찾기' },
+            { content: '상점검색' },
           ],
         },
         {
-          content: 'Launched Bar Service in 2018',
+          content: 'Admin 개발',
           weight: 'MEDIUM',
           descriptions: [
-            { content: 'Suspendisse vestibulum odio id libero facilisis gravida' },
-            {
-              content: 'In ipsum est, pellentesque vestibulum tortor eu, bibendum imperdiet metus',
-            },
+            { content: 'C3 Libary를 통한 KPI 지표 그래프 화' },
+            { content: 'Spring Batch 서비스 개발' },
+            { content: 'App Push 예약 전송' },
           ],
         },
-      ],
-    },
-    {
-      title: 'Lorem ipsum Project',
-      startedAt: '2016-10',
-      endedAt: '2017-11',
-      where: 'Bar Co., LTD.',
-      descriptions: [
-        { content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit' },
-        { content: 'Integer massa magna, feugiat commodo arcu sed, sagittis sollicitudin tortor' },
-        { content: 'Nullam diam ex, interdum nec lacus vel, ultrices pretium sapien' },
-        { content: 'Proin bibendum non nibh eu aliquet' },
+        {
+          content: 'MVP 모델 제작부터, 실제 수익까지 내어 최종 EXIT 했음.',
+          weight: 'MEDIUM',
+        },
+        {
+          content: '라스트오더(미로), 지역기반 스마트오더 개발사 "웰바이 인수"',
+          href:
+            'https://www.venturesquare.net/812080?fbclid=IwAR3hnIiociWFku2slbcpYYYyKH2kUUEU2GmuUG7M-8l8Zhn6s_dT00i75GA',
+        },
       ],
     },
   ],

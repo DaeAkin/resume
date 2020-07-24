@@ -5,18 +5,18 @@ const article: IArticle.Payload = {
 
   list: [
     {
-      content: "IU's agency announces official online merchandise shop for fans (2020.04.22)",
+      content: '자바의 JVM 구조와 GC (2020.03.31)',
       href:
-        'https://www.gmanetwork.com/entertainment/celebritylife/news/62342/ius-agency-announces-official-online-merchandise-shop-for-fans/story',
+        'https://donghyeon.dev//articles/2020-03/%EC%9E%90%EB%B0%94%EC%9D%98-JVM-%EA%B5%AC%EC%A1%B0%EC%99%80-Garbage-Collection',
     },
     {
-      content: 'K-pop star IU donates ₩100 million to doctors for coronavirus relief (2020.02.27)',
-      href: 'http://www.koreabiomed.com/news/articleView.html?idxno=7550',
+      content: '자바의 Heap과 Stack (2020.03.29)',
+      href:
+        'https://donghyeon.dev//articles/2020-03/%EC%9E%90%EB%B0%94%EC%9D%98-Heap%EA%B3%BC-Stack',
     },
     {
-      content: 'IU donates 100 million KRW after being inspired by her fans (2019.12.30)',
-      href:
-        'https://www.allkpop.com/article/2019/12/iu-donates-to-100-million-krw-after-being-inspired-by-her-fans',
+      content: 'Spring Validation (2019.11.09)',
+      href: 'https://donghyeon.dev//articles/2019-11/Spring-Validation-index',
     },
   ],
 };

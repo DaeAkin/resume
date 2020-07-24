@@ -84,6 +84,21 @@ const etc: ISkill.Skill = {
     {
       title: 'Slack',
     },
+    {
+      title: 'Git / Github',
+    },
+    {
+      title: 'Agile',
+    },
+    {
+      title: 'Bitbucket',
+    },
+    {
+      title: 'Ubuntu',
+    },
+    {
+      title: 'CI/CD',
+    },
   ],
 };
 

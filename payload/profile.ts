@@ -1,6 +1,6 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faBlogger } from '@fortawesome/free-brands-svg-icons';
 import image from '../asset/_sample.jpg';
 import { IProfile } from '../component/profile/IProfile';
 
@@ -28,6 +28,11 @@ const profile: IProfile.Payload = {
       title: 'https://github.com/DaeAkin',
       link: 'https://github.com/DaeAkin',
       icon: faGithub,
+    },
+    {
+      title: 'https://daeakin.github.io',
+      link: 'https://daeakin.github.io',
+      icon: faBlogger,
     },
     // {
     //   link: 'https://www.facebook.com/iu.loen',

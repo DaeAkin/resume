@@ -41,7 +41,6 @@ const experience: IExperience.Payload = {
         '음식 포장 O2O 스타트업 서비스 벤처 스타트업 (7명, 개발팀 2명)',
         '백 오피스 개발',
         '앱 서비스를 위한 API 개발',
-        '라스트오더(주식회사 미로)에 EXIT 되었음',
       ],
       skillKeywords: [
         'JAVA',
