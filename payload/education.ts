@@ -19,8 +19,8 @@ const education: IEducation.Payload = {
     {
       title: '학점은행제',
       subTitle: '학사과정',
-      startedAt: '2020-04',
-      // endedAt: '2020-03',
+      startedAt: '2020-07',
+      endedAt: '2020-12',
     },
   ],
 };

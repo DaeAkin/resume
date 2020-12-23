@@ -9,7 +9,7 @@ const experience: IExperience.Payload = {
       startedAt: '2020-05',
       descriptions: [
         '통합관제솔루션 ICT 기업(100~150명 개발팀 100명 R&D 20명) ',
-        '시각화 솔루션 레노빗(RENOBIT) Spring Legacy를 점진적으로 개선',
+        '시각화 솔루션 레노빗(RENOBIT) Spring Legacy를 점진적으로 MSA 아키텍처로 개선 중',
         'P&ID 도면 프로그램 신규 프로젝트 개발',
         'R&D 내에 최초 테스트코드 도입',
       ],
@@ -30,6 +30,7 @@ const experience: IExperience.Payload = {
         'Swagger2',
         'Spring-Data-JPA',
         'JAVA Stream API',
+        'Docker'
       ],
     },
     {

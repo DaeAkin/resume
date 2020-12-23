@@ -25,8 +25,9 @@ const project: IProject.Payload = {
       where: '위엠비(WeMB)',
       descriptions: [
         { content: 'Spring MVC 모델에서 M이 없는 VC 기반의 패턴을 MVC구조로 변경함' },
-        { content: '테스트 코드 작성' },
-        { content: '단일책임 원칙 적용' },
+        { content: '테스트 코드 도입' },
+        { content: 'Mybatis -> JPA로 전환 중에 있음' },
+        { content: '레거시를 MSA로 전환 중에 있음.' },
       ],
     },
 
