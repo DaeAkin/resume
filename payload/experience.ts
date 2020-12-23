@@ -30,7 +30,7 @@ const experience: IExperience.Payload = {
         'Swagger2',
         'Spring-Data-JPA',
         'JAVA Stream API',
-        'Docker'
+        'Docker',
       ],
     },
     {
