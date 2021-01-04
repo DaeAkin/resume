@@ -1,24 +1,14 @@
 import { IEtc } from '../component/etc/IEtc';
 
 const etc: IEtc.Payload = {
-  disable: true,
+  disable: false,
 
   list: [
     {
-      title: 'Capstone Design Contest',
-      subTitle: 'Grand Prize',
-      startedAt: '2015-05',
-    },
-    {
-      title: 'IT Education Service Activities',
-      subTitle: 'Wrold Friends IT Volunteer',
-      startedAt: '2013-07',
-      endedAt: '2013-08',
-    },
-    {
-      title: 'Information Olympiad',
-      subTitle: 'Silver Prize',
-      startedAt: '2008-05',
+      title: '인덕대학교 Passion 동아리 부회장',
+      subTitle: '인덕대학교의 자바관련 동아리인 Passion에서 부회장 역할을 맡음.',
+      startedAt: '2015-03',
+      endedAt: '2019-12',
     },
   ],
 };

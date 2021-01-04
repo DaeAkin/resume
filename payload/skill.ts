@@ -99,6 +99,9 @@ const etc: ISkill.Skill = {
     {
       title: 'CI/CD',
     },
+    {
+      title: 'Docker',
+    },
   ],
 };
 

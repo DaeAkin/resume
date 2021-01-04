@@ -46,7 +46,7 @@ const profile: IProfile.Payload = {
     // },
   ],
   notice: {
-    title: '이메일로 연락 부탁드립니다.',
+    title: '안녕하세요.',
     icon: faBell,
   },
 };

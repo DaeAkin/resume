@@ -5,6 +5,10 @@ const article: IArticle.Payload = {
 
   list: [
     {
+      content: '직렬화와 마샬링 (2020.11.07)',
+      href: 'https://donghyeon.dev/2020/11/07/직렬화와-마샬링/',
+    },
+    {
       content: '자바의 JVM 구조와 GC (2020.03.31)',
       href:
         'https://donghyeon.dev/java/2020/03/31/%EC%9E%90%EB%B0%94%EC%9D%98-JVM-%EA%B5%AC%EC%A1%B0%EC%99%80-Garbage-Collection/',

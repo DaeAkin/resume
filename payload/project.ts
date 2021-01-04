@@ -15,7 +15,13 @@ const project: IProject.Payload = {
       startedAt: '2020-07',
       // endedAt: '2017-11',
       where: '위엠비(WeMB)',
-      descriptions: [],
+      descriptions: [
+        { content: '남제주 발전소 도면편집 프로그램 납품' },
+        { content: 'JWT를 이용해서 기존 RENOBIT 솔루션과 로그인 통합' },
+        { content: 'Jenkins와 Docker를 이용한 CI/CD 구현 ' },
+        { content: '레거시를 Spring Boot로 전환하여, 보일러플레이트 코드 50% 제거 ' },
+        { content: 'TDD를 토입하여, 코드 안정성 확대' },
+      ],
     },
 
     {

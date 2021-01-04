@@ -1,58 +1,24 @@
 import { IOpenSource } from '../component/openSource/IOpenSource';
 
 const openSource: IOpenSource.Payload = {
-  disable: true,
+  disable: false,
   list: [
     {
-      title: 'node',
+      title: 'MapStruct',
       descriptions: [
-        { content: 'Node.js JavaScript runtime' },
-        { content: 'Contributor' },
-        {
-          content: 'https://github.com/nodejs/node',
-          href: 'https://github.com/nodejs/node',
-        },
-        {
-          content: 'Github Stars: ',
-          postImage: 'https://img.shields.io/github/stars/nodejs/node.svg?style=popout',
-        },
+        { content: '사용법에 대한 이슈 제기 ' },
+        { content: 'Contributor', href: 'https://github.com/mapstruct/mapstruct/issues/2276' },
       ],
     },
     {
-      title: 'NestJS',
+      title: 'Effective Java 스터디',
       descriptions: [
         {
-          content: 'A progressive Node.js framework',
+          content: '자바를 더욱 효과적으로 공부하기 위해 스터디 결성 후 팀장을 맡음. (5인)',
         },
         {
-          content:
-            'for building efficient, scalable, and enterprise-grade server-side applications',
-        },
-        {
-          content: 'Contributor',
-        },
-        {
-          content: 'https://github.com/nestjs/nest',
-          href: 'https://github.com/nestjs/nest',
-        },
-        {
-          content: 'Monthly Download: ',
-          postImage: 'https://img.shields.io/npm/dm/@nestjs/core.svg',
-        },
-        {
-          content: 'Github Stars: ',
-          postImage: 'https://img.shields.io/github/stars/nestjs/nest.svg?style=popout',
-        },
-      ],
-    },
-    {
-      title: 'Developer Community',
-      descriptions: [
-        {
-          content: 'Presentation in 2019',
-        },
-        {
-          content: 'Hackathon participation in 2017',
+          content: '@java-starter',
+          href: 'https://github.com/java-starter/ReadingBooks',
         },
       ],
     },
