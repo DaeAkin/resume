@@ -1,7 +1,7 @@
 import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
 import { faGithub, faBlogger } from '@fortawesome/free-brands-svg-icons';
-import image from '../asset/_sample.jpg';
+import image from '../asset/new.png';
 import { IProfile } from '../component/profile/IProfile';
 
 const profile: IProfile.Payload = {
@@ -15,7 +15,7 @@ const profile: IProfile.Payload = {
   },
   contact: [
     {
-      title: 'mindonghyeon890@gmail.com',
+      title: 'mindh890@gmail.com',
       link: '#',
       icon: faEnvelope,
     },

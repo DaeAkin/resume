@@ -4,12 +4,22 @@ const experience: IExperience.Payload = {
   disable: false,
   list: [
     {
+      title: 'NHN SOFT',
+      position: 'Back-End 개발',
+      startedAt: '2021-02',
+      descriptions: [
+        'Java 기반의 웹 서비스 및 플랫폼 비즈니스 개발',
+        'NHN(주) 서비스를 위한 다양한 기술 서비스 개발',
+      ],
+    },
+    {
       title: '위엠비(WeMB)',
       position: 'R&D VX(Visual eXperience)팀 자바 개발자',
       startedAt: '2020-05',
+      endedAt: '2021-02',
       descriptions: [
         '통합관제솔루션 ICT 기업(100~150명 개발팀 100명 R&D 20명) ',
-        '시각화 솔루션 레노빗(RENOBIT) Spring Legacy를 점진적으로 MSA 아키텍처로 개선 중',
+        '시각화 솔루션 레노빗(RENOBIT) Spring Legacy를 점진적으로 MSA 아키텍처로 개선',
         'P&ID 도면 프로그램 신규 프로젝트 개발',
         'R&D 내에 최초 테스트코드 도입',
       ],

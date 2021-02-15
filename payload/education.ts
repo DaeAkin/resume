@@ -12,7 +12,7 @@ const education: IEducation.Payload = {
     },
     {
       title: '인덕대학교',
-      subTitle: '컴퓨터소프트웨어 학과',
+      subTitle: '컴퓨터소프트웨어 학과(전문 학사)',
       startedAt: '2015-03',
       endedAt: '2020-03',
     },
@@ -20,7 +20,7 @@ const education: IEducation.Payload = {
       title: '학점은행제',
       subTitle: '학사과정',
       startedAt: '2020-07',
-      endedAt: '2020-12',
+      // endedAt: '2020-12',
     },
   ],
 };
