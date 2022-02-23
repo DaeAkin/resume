@@ -11,6 +11,20 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: 'NHN Dooray! 홈/게시판',
+      startedAt: '2021-02',
+      where: 'NHN SOFT',
+      descriptions: [
+        { content: 'NHN Dooray! 신규 서비스 홈/게시판 신규 개발' },
+        {
+          content: '게시글 동시편집 방지를 위한 낙관적락 테스트 구현',
+          href:
+            'https://donghyeon.dev/junit/2021/10/17/%EB%82%99%EA%B4%80%EC%A0%81%EB%9D%BD-%ED%85%8C%EC%8A%A4%ED%8A%B8%ED%95%98%EA%B8%B0/',
+        },
+        { content: '추상골격클래스를 활용한 확장에는 열려있는 클래스 설계' },
+      ],
+    },
+    {
       title: 'P&ID',
       startedAt: '2020-07',
       // endedAt: '2017-11',
@@ -30,7 +44,7 @@ const project: IProject.Payload = {
       // endedAt: '2017-11',
       where: '위엠비(WeMB)',
       descriptions: [
-        { content: 'Spring MVC 모델에서 M이 없는 VC 기반의 패턴을 MVC구조로 변경함' },
+        { content: 'Spring MVC 모델에서 C이 없는 MV 기반의 패턴을 MVC구조로 변경함' },
         { content: '테스트 코드 도입' },
         { content: 'Mybatis -> JPA로 전환 중에 있음' },
         { content: '레거시를 MSA로 전환 중에 있음.' },

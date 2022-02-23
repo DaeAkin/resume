@@ -8,9 +8,10 @@ const experience: IExperience.Payload = {
       position: 'Back-End 개발',
       startedAt: '2021-02',
       descriptions: [
-        'Java 기반의 웹 서비스 및 플랫폼 비즈니스 개발',
-        'NHN(주) 서비스를 위한 다양한 기술 서비스 개발',
+        'NHN Dooray! 서비스 중 홈/게시판 서비스 신규 개발 및 유지보수',
+        '한국은행 두레이 전환을 위한 인사시스템 연동과 관리자화면 구축',
       ],
+      skillKeywords: ['JAVA', 'SpringBoot', 'Spring-Cloud', 'Spring-Data-Jpa'],
     },
     {
       title: '위엠비(WeMB)',
@@ -36,7 +37,6 @@ const experience: IExperience.Payload = {
         'MongoDB',
         'nginx',
         'Gradle',
-        'OAuth2',
         'Swagger2',
         'Spring-Data-JPA',
         'JAVA Stream API',
@@ -63,7 +63,6 @@ const experience: IExperience.Payload = {
         'MongoDB',
         'nginx',
         'Gradle',
-        'OAuth2',
         'Swagger2',
         'Spring-Data-JPA',
       ],

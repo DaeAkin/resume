@@ -30,8 +30,8 @@ const profile: IProfile.Payload = {
       icon: faGithub,
     },
     {
-      title: 'https://daeakin.github.io',
-      link: 'https://daeakin.github.io',
+      title: 'https://donghyeon.dev',
+      link: 'https://donghyeon.dev',
       icon: faBlogger,
     },
     // {
