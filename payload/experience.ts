@@ -2,6 +2,7 @@ import { IExperience } from '../component/experience/IExperience';
 
 const experience: IExperience.Payload = {
   disable: false,
+  disableTotalPeriod: false,
   list: [
     {
       title: 'NHN SOFT',
@@ -9,6 +10,7 @@ const experience: IExperience.Payload = {
       startedAt: '2021-02',
       descriptions: [
         'NHN Dooray! 서비스 중 홈/게시판 서비스 신규 개발 및 유지보수',
+
         '한국은행 두레이 전환을 위한 인사시스템 연동과 관리자화면 구축',
       ],
       skillKeywords: ['JAVA', 'SpringBoot', 'Spring-Cloud', 'Spring-Data-Jpa'],

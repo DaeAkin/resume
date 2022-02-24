@@ -5,6 +5,16 @@ const article: IArticle.Payload = {
 
   list: [
     {
+      content: '익명클래스의 메모리 누수 (2021.12.11)',
+      href:
+        'https://donghyeon.dev/java/2021/12/11/%EC%9D%B5%EB%AA%85%ED%81%B4%EB%9E%98%EC%8A%A4%EC%9D%98-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%88%84%EC%88%98/',
+    },
+    {
+      content: 'Junit5 완벽 가이드 (2021.04.11)',
+      href:
+        'https://donghyeon.dev/junit/2021/04/11/JUnit5-%EC%99%84%EB%B2%BD-%EA%B0%80%EC%9D%B4%EB%93%9C/',
+    },
+    {
       content: '직렬화와 마샬링 (2020.11.07)',
       href: 'https://donghyeon.dev/2020/11/07/직렬화와-마샬링/',
     },

@@ -15,13 +15,20 @@ const project: IProject.Payload = {
       startedAt: '2021-02',
       where: 'NHN SOFT',
       descriptions: [
-        { content: 'NHN Dooray! 신규 서비스 홈/게시판 신규 개발' },
         {
-          content: '게시글 동시편집 방지를 위한 낙관적락 테스트 구현',
-          href:
-            'https://donghyeon.dev/junit/2021/10/17/%EB%82%99%EA%B4%80%EC%A0%81%EB%9D%BD-%ED%85%8C%EC%8A%A4%ED%8A%B8%ED%95%98%EA%B8%B0/',
+          content: '2021년 NHN Dooray! 홈/게시판 신규서비스 런칭',
+          weight: 'BOLD',
+          descriptions: [
+            { content: 'NHN Dooray! 신규 서비스 홈/게시판 신규 개발' },
+            { content: '홈 : 다양한 두레이 서비스 포털 위젯 기능 개발' },
+            { content: '게시판 : 기본적인 게시판 기능을 하고 조직에서 사용하는 게시판 기능 개발' },
+            {
+              content: '게시글 동시편집 방지를 위한 낙관적락 테스트 구현',
+              href:
+                'https://donghyeon.dev/junit/2021/10/17/%EB%82%99%EA%B4%80%EC%A0%81%EB%9D%BD-%ED%85%8C%EC%8A%A4%ED%8A%B8%ED%95%98%EA%B8%B0/',
+            },
+          ],
         },
-        { content: '추상골격클래스를 활용한 확장에는 열려있는 클래스 설계' },
       ],
     },
     {
