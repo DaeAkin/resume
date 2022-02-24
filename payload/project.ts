@@ -27,7 +27,7 @@ const project: IProject.Payload = {
     {
       title: 'P&ID',
       startedAt: '2020-07',
-      // endedAt: '2017-11',
+      endedAt: '2021-02',
       where: '위엠비(WeMB)',
       descriptions: [
         { content: '남제주 발전소 도면편집 프로그램 납품' },
@@ -41,7 +41,7 @@ const project: IProject.Payload = {
     {
       title: 'RENOBIT 빅데이터 시각화 솔루션',
       startedAt: '2020-05',
-      // endedAt: '2017-11',
+      endedAt: '2021-02',
       where: '위엠비(WeMB)',
       descriptions: [
         { content: 'Spring MVC 모델에서 C이 없는 MV 기반의 패턴을 MVC구조로 변경함' },
