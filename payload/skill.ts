@@ -16,6 +16,10 @@ const backend: ISkill.Skill = {
       title: 'Spring',
       level: 1,
     },
+    {
+      title: 'JPA',
+      level: 1,
+    },
   ],
 };
 
