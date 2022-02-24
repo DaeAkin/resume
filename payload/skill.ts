@@ -8,16 +8,12 @@ const backend: ISkill.Skill = {
       level: 1,
     },
     {
-      title: 'PHP',
-      level: 2,
-    },
-    {
       title: 'Java',
       level: 3,
     },
 
     {
-      title: 'C/C++',
+      title: 'Spring',
       level: 1,
     },
   ],
@@ -36,10 +32,6 @@ const database: ISkill.Skill = {
     },
     {
       title: 'Redis',
-      level: 1,
-    },
-    {
-      title: 'MongoDB',
       level: 1,
     },
   ],
@@ -92,9 +84,6 @@ const etc: ISkill.Skill = {
     },
     {
       title: 'Bitbucket',
-    },
-    {
-      title: 'Ubuntu',
     },
     {
       title: 'CI/CD',

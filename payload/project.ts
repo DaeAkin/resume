@@ -53,8 +53,7 @@ const project: IProject.Payload = {
       descriptions: [
         { content: 'Spring MVC 모델에서 C이 없는 MV 기반의 패턴을 MVC구조로 변경함' },
         { content: '테스트 코드 도입' },
-        { content: 'Mybatis -> JPA로 전환 중에 있음' },
-        { content: '레거시를 MSA로 전환 중에 있음.' },
+        { content: 'Mybatis -> JPA로 전환에 기여함.' },
       ],
     },
 
