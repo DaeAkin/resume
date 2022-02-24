@@ -27,7 +27,7 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
           <Col>
             <h2>
               <span style={Style.blue}>SKILL</span>
-              {createTooltip(payload.tooltip)}
+              {/* {createTooltip(payload.tooltip)} */}
             </h2>
           </Col>
         </Row>
