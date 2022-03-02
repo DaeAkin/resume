@@ -22,24 +22,34 @@ const project: IProject.Payload = {
             { content: 'NHN Dooray! 신규 서비스 홈/게시판 신규 개발' },
             { content: '홈 : 다양한 두레이 서비스 포털 위젯 기능 개발' },
             { content: '게시판 : 기본적인 게시판 기능을 하고 조직에서 사용하는 게시판 기능 개발' },
-            { content: '홈 서비스 위젯 개발 시 추상골격클래스 기법을 이용한 확장에는 열려있고 수정에는 닫혀있는 OCP 규칙을 준수하여 개발함. 그로 인해 새로운 위젯 타입을 쉽게 추가할 수 있음.' },
-            { content: '객체간의 형변환시 컴파일 타임 맵핑 코드를 지원하는 MapStruct 라이브러리를 사용하여 형변환 속도 개선 및 코드 감소 ' },
-            { content: 'JPA ',
+            {
+              content:
+                '홈 서비스 위젯 개발 시 추상골격클래스 기법을 이용한 확장에는 열려있고 수정에는 닫혀있는 OCP 규칙을 준수하여 개발함. 그로 인해 새로운 위젯 타입을 쉽게 추가할 수 있음.',
+            },
+            {
+              content:
+                '객체간의 형변환시 컴파일 타임 맵핑 코드를 지원하는 MapStruct 라이브러리를 사용하여 형변환 속도 개선 및 코드 감소 ',
+            },
+            {
+              content: 'JPA ',
               weight: 'BOLD',
-            descriptions: [
-              {
-                content: '게시글 동시편집 방지를 위한 게시판 수정 비즈니스 로직 낙관적락 통합 테스트 구현으로 인한 검증',
-                href:
-                  'https://donghyeon.dev/junit/2021/10/17/%EB%82%99%EA%B4%80%EC%A0%81%EB%9D%BD-%ED%85%8C%EC%8A%A4%ED%8A%B8%ED%95%98%EA%B8%B0/',
-              },
-              {
-                content: '홈 서비스에서 위젯 기능 조회시 N+1이 발생하던 이슈를 fetch join으로 해결',
-              },
-              {
-                content: '연관관계 맵핑 시  CascadeType.PERSIS를 이용했을 때 자식 엔티티가 삭제 안되는 현상 팀 내 공유',
-              },
-            ] },
-            
+              descriptions: [
+                {
+                  content:
+                    '게시글 동시편집 방지를 위한 게시판 수정 비즈니스 로직 낙관적락 통합 테스트 구현으로 인한 검증',
+                  href:
+                    'https://donghyeon.dev/junit/2021/10/17/%EB%82%99%EA%B4%80%EC%A0%81%EB%9D%BD-%ED%85%8C%EC%8A%A4%ED%8A%B8%ED%95%98%EA%B8%B0/',
+                },
+                {
+                  content:
+                    '홈 서비스에서 위젯 기능 조회시 N+1이 발생하던 이슈를 fetch join으로 해결',
+                },
+                {
+                  content:
+                    '연관관계 맵핑 시  CascadeType.PERSIS를 이용했을 때 자식 엔티티가 삭제 안되는 현상 팀 내 공유',
+                },
+              ],
+            },
           ],
         },
       ],
@@ -51,19 +61,19 @@ const project: IProject.Payload = {
       where: 'NHN SOFT',
       descriptions: [
         {
-          content : '한국은행 인사정보를 keycloak 연동과 한국은행 만의 두레이 회원가입 및 관리자화면 개발 프로젝트',
-          weight : 'BOLD',
+          content:
+            '한국은행 인사정보를 keycloak 연동과 한국은행 만의 두레이 회원가입 및 관리자화면 개발 프로젝트',
+          weight: 'BOLD',
           descriptions: [
-            { content : 'Vue.js를 이용한 한국은행의 두레이 회원가입 및 관리자 화면 개발'}
+            { content: 'Vue.js를 이용한 한국은행의 두레이 회원가입 및 관리자 화면 개발' },
           ],
-          
         },
         {
-          content : 'DataSource 2개 사용시 2번 데이터베이스에서 오류 발생 시 1번 데이터베이스에서 롤백 안되는 이슈 해결'
-        }
-      ] 
-       }
-       ,
+          content:
+            'DataSource 2개 사용시 2번 데이터베이스에서 오류 발생 시 1번 데이터베이스에서 롤백 안되는 이슈 해결',
+        },
+      ],
+    },
     {
       title: 'P&ID',
       startedAt: '2020-07',
