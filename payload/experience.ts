@@ -9,7 +9,7 @@ const experience: IExperience.Payload = {
       position: 'Back-End 개발',
       startedAt: '2021-02',
       descriptions: [
-        'NHN Dooray! 서비스 중 홈/게시판 서비스 신규 개발 및 유지보수',
+        'NHN Dooray! 서비스 20개 중 홈/게시판 서비스 신규 개발 및 유지보수',
 
         '한국은행 두레이 전환을 위한 인사시스템 연동과 관리자화면 구축',
       ],
