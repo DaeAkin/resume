@@ -5,9 +5,17 @@ const experience: IExperience.Payload = {
   disableTotalPeriod: false,
   list: [
     {
+      title: '티맵 모빌리티(Tmap Mobility)',
+      position: '모빌리티서비스 화물개발팀',
+      startedAt: '2022-10',
+      descriptions: [],
+      // skillKeywords: ['JAVA', 'SpringBoot', 'Spring-Cloud', 'Spring-Data-Jpa'],
+    },
+    {
       title: 'NHN SOFT',
-      position: 'Back-End 개발',
+      position: 'Dooray 개발팀 Back-End 개발자',
       startedAt: '2021-02',
+      endedAt: '2022-09',
       descriptions: [
         'NHN Dooray! 서비스 20개 중 홈/게시판 서비스 신규 개발 및 유지보수',
 
