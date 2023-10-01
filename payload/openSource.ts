@@ -3,13 +3,13 @@ import { IOpenSource } from '../component/openSource/IOpenSource';
 const openSource: IOpenSource.Payload = {
   disable: false,
   list: [
-    {
-      title: 'MapStruct',
-      descriptions: [
-        { content: '사용법에 대한 이슈 제기 ' },
-        { content: 'Contributor', href: 'https://github.com/mapstruct/mapstruct/issues/2276' },
-      ],
-    },
+    // {
+    //   title: 'MapStruct',
+    //   descriptions: [
+    //     { content: '사용법에 대한 이슈 제기 ' },
+    //     { content: 'Contributor', href: 'https://github.com/mapstruct/mapstruct/issues/2276' },
+    //   ],
+    // },
     {
       title: '스터디',
       descriptions: [
@@ -31,6 +31,10 @@ const openSource: IOpenSource.Payload = {
           content: 'Junit5 한글 문서',
           href:
             'https://donghyeon.dev/junit/2021/04/11/JUnit5-%EC%99%84%EB%B2%BD-%EA%B0%80%EC%9D%B4%EB%93%9C/',
+        },
+        {
+          content: '',
+          postImage: 'https://img.shields.io/github/stars/DaeAkin/JUnit5-Study',
         },
       ],
     },

@@ -19,7 +19,7 @@ const education: IEducation.Payload = {
     {
       title: '학점은행제',
       subTitle: '컴퓨터공학 학사과정',
-      startedAt: '2021-07',
+      startedAt: '2020-03',
       endedAt: '2022-02',
     },
   ],

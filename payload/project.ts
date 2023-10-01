@@ -11,6 +11,52 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: '티맵 모빌리티 화물서비스 신규 개발 및 런칭 (작업중)',
+      startedAt: '2023-10',
+      // endedAt: '2022-09',
+      where: '티맵 모빌리티',
+      descriptions: [
+        {
+          content: 'SMS/알림톡 Third Party API 외부 연동',
+        },
+        {
+          content: '재무 회계 처리 연동',
+        },
+        {
+          content: '차주에게 자동으로 운임비를 지급하는 지급이체 배치 기능 개발',
+        },
+        {
+          content: '주선사 권한 기능 개발',
+          descriptions: [
+            {
+              content: '권한을 분리함으로서 주선업무 효율화 증대',
+            },
+            {
+              content: 'ITGC 내부회계관리 대응',
+            },
+          ],
+        },
+        {
+          content: '비회원이 화물을 접수할 수 있는 기능 개발',
+        },
+        {
+          content: '화물 관제 기능 개발',
+          descriptions: [
+            {
+              content:
+                '화물 관제 시스템을 개발하여 실시간으로 화물 위치를 모니터링할 수 있는 기능 개발',
+            },
+          ],
+        },
+        {
+          content: '산재보험료 기능 개발',
+        },
+        {
+          content: '차입통장 (마이너스통장) 기능 개발',
+        },
+      ],
+    },
+    {
       title: 'NHN Dooray! 메신저 슬래시 커맨드',
       startedAt: '2022-04',
       endedAt: '2022-09',

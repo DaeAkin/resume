@@ -17,7 +17,10 @@ export default function ExperienceRow({
           {createWorkingPeriod(item.startedAt, item.endedAt)}
         </Col>
         <Col sm={12} md={9}>
-          <h4>{item.title}</h4>
+          <Row>
+            {createLogo(item.logo)}
+            <h4>{item.title}</h4>
+          </Row>
           <i style={Style.gray}>{item.position}</i>
           <ul className="pt-3">
             {item.descriptions.map((description, descIndex) => (
@@ -28,6 +31,21 @@ export default function ExperienceRow({
         </Col>
       </Row>
     </div>
+  );
+}
+
+function createLogo(logo?: string) {
+  if (!logo) {
+    return <span style={{ marginLeft: '10px' }} />;
+  }
+  return (
+    <img
+      src={logo}
+      alt="이미지"
+      width="32"
+      height="32"
+      style={{ marginRight: '10px', marginLeft: '10px' }}
+    />
   );
 }
 

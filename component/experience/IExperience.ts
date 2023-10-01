@@ -55,5 +55,6 @@ export declare namespace IExperience {
      */
 
     skillKeywords?: string[];
+    logo?: string;
   }
 }
