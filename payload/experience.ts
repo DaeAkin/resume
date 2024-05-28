@@ -1,4 +1,8 @@
 import { IExperience } from '../component/experience/IExperience';
+import tmapLogo from '../asset/tmap_logo.jpg';
+import nhnLogo from '../asset/nhn_logo.jpg';
+import wembLogo from '../asset/wemb_logo.png';
+import wellbuyLogo from '../asset/wellbuy_logo.jpg';
 
 const experience: IExperience.Payload = {
   disable: false,
@@ -6,12 +10,11 @@ const experience: IExperience.Payload = {
   list: [
     {
       title: '티맵 모빌리티(Tmap Mobility)',
-      position: '모빌리티서비스 화물개발팀',
+      position: 'Back-End 개발자',
       startedAt: '2022-10',
-      descriptions: ['티맵 신규 서비스인 화물서비스 런칭 및 개발'],
+      descriptions: ['티맵 신규 서비스인 화물서비스 런칭 및 개발', '운전점수 개발'],
       skillKeywords: ['Kotlin', 'SpringBoot', 'AWS', 'EKS', 'MYSQL', 'DataDog'],
-      logo:
-        'https://media.licdn.com/dms/image/C4E0BAQFFyk4WY87wWA/company-logo_100_100/0/1628482246845?e=1704326400&v=beta&t=xw-3Bm7UAHfx6tEekz496EI6ebvRKBl2tc2B9jbtAhM',
+      logo: tmapLogo,
     },
     {
       title: 'NHN SOFT',
@@ -24,8 +27,7 @@ const experience: IExperience.Payload = {
         '한국은행 두레이 전환을 위한 인사시스템 연동과 관리자화면 구축',
       ],
       skillKeywords: ['JAVA', 'SpringBoot', 'Spring-Cloud', 'Spring-Data-Jpa'],
-      logo:
-        'https://media.licdn.com/dms/image/C4D0BAQEu4ymPQz_Dcw/company-logo_100_100/0/1555545580637?e=1704326400&v=beta&t=SHaTooa84sEpZko2__YLCfktok1haJwwO9A716No0qo',
+      logo: nhnLogo,
     },
     {
       title: '위엠비(WeMB)',
@@ -56,8 +58,7 @@ const experience: IExperience.Payload = {
         'JAVA Stream API',
         'Docker',
       ],
-      logo:
-        'https://media.licdn.com/dms/image/C4D0BAQE5ct7DjIT5yQ/company-logo_100_100/0/1519952453695?e=1704326400&v=beta&t=pQ2YRLbEOauJzpLXk2oz6ctORx8RB8v0cZhxSXRUQfk',
+      logo: wembLogo,
     },
     {
       title: '웰바이(Well-Buy)',
@@ -82,8 +83,7 @@ const experience: IExperience.Payload = {
         'Swagger2',
         'Spring-Data-JPA',
       ],
-      logo:
-        'https://image.rocketpunch.com/company/90788/well-buy_logo_1549877949.jpg?s=400x400&t=inside',
+      logo: wellbuyLogo,
     },
   ],
 };

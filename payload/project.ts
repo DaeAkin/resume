@@ -11,9 +11,16 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: '티맵 모빌리티 화물서비스 신규 개발 및 런칭 (작업중)',
-      startedAt: '2023-10',
-      // endedAt: '2022-09',
+      title: '티맵 모빌리티 운전점수 개발',
+      startedAt: '2024-06',
+      // endedAt: '2024-05',
+      where: '티맵 모빌리티',
+      descriptions: [],
+    },
+    {
+      title: '티맵 모빌리티 화물서비스 신규 개발 및 런칭',
+      startedAt: '2022-10',
+      endedAt: '2024-05',
       where: '티맵 모빌리티',
       descriptions: [
         {
