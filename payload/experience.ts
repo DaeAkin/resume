@@ -1,5 +1,5 @@
 import { IExperience } from '../component/experience/IExperience';
-import tmapLogo from '../asset/tmap_logo.jpg';
+import tmapLogo from '../asset/tmap_logo.png';
 import nhnLogo from '../asset/nhn_logo.jpg';
 import wembLogo from '../asset/wemb_logo.png';
 import wellbuyLogo from '../asset/wellbuy_logo.jpg';
@@ -12,8 +12,21 @@ const experience: IExperience.Payload = {
       title: '티맵 모빌리티(Tmap Mobility)',
       position: 'Back-End 개발자',
       startedAt: '2022-10',
-      descriptions: ['티맵 신규 서비스인 화물서비스 런칭 및 개발', '운전점수 개발'],
-      skillKeywords: ['Kotlin', 'SpringBoot', 'AWS', 'EKS', 'MYSQL', 'DataDog'],
+      descriptions: [
+        '티맵 신규 서비스인 화물서비스 런칭 및 개발',
+        '운전점수 개발',
+        'TMap Open API 개발',
+      ],
+      skillKeywords: [
+        'Kotlin',
+        'SpringBoot',
+        'AWS',
+        'EKS',
+        'MYSQL',
+        'DataDog',
+        'DynamoDB',
+        'Kafka',
+      ],
       logo: tmapLogo,
     },
     {

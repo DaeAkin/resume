@@ -11,11 +11,59 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: 'TMap Open API 개발',
+      startedAt: '2024-12',
+      // endedAt: '2024-05',
+      where: '티맵 모빌리티',
+      descriptions: [
+        {
+          content: '모니터링 개선',
+          weight: 'BOLD',
+          descriptions: [
+            {
+              content:
+                'API 사용량과 장애율 모니터링을 위해 OpenMetrics 도입함. 로그 기반 방식 대비 비용을 크게 절감하며 운영 효율을 높임',
+            },
+          ],
+        },
+      ],
+    },
+    {
       title: '티맵 모빌리티 운전점수 개발',
       startedAt: '2024-06',
       // endedAt: '2024-05',
       where: '티맵 모빌리티',
-      descriptions: [],
+      descriptions: [
+        {
+          content: 'IDC 센터에서 AWS로 마이그레이션 이전 작업 진행',
+          weight: 'BOLD',
+          descriptions: [
+            {
+              content: '운영중인 서비스를 무중단으로 AWS로 마이그레이션을 성공적으로 진행함',
+            },
+            {
+              content: '데이터 정합성을 99.99%까지 유지하며 마이그레이션을 완료함',
+            },
+          ],
+        },
+        {
+          content: 'AWS 서버 비용 절약',
+          weight: 'BOLD',
+          descriptions: [
+            {
+              content:
+                'N년 초과된 운전점수 데이터 삭제를 주기적으로 수행하여 DynamoDB의 스토리지 비용을 약 26% 절감, 월 X00만원 비용 절감 달성',
+            },
+            {
+              content:
+                '저장보다 IO가 빈번한 운전점수 데이터 특성을 활용해 DynamoDB 스토리지 옵션을 Standard에서 IO Optimized로 변경하여 월 X00만원 비용 절감',
+            },
+            {
+              content: '분리 운영되던 서버들을 하나로 통합하여 관리 효율성 증대 및 운영비용 절감',
+            },
+          ],
+        },
+      ],
     },
     {
       title: '티맵 모빌리티 화물서비스 신규 개발 및 런칭',
