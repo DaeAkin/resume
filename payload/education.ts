@@ -5,10 +5,10 @@ const education: IEducation.Payload = {
 
   list: [
     {
-      title: '동북 고등학교',
-      subTitle: '자연계',
-      startedAt: '2012-03',
-      endedAt: '2015-03',
+      title: '학점은행제',
+      subTitle: '컴퓨터공학 학사과정',
+      startedAt: '2020-03',
+      endedAt: '2022-02',
     },
     {
       title: '인덕대학교',
@@ -17,10 +17,10 @@ const education: IEducation.Payload = {
       endedAt: '2020-03',
     },
     {
-      title: '학점은행제',
-      subTitle: '컴퓨터공학 학사과정',
-      startedAt: '2020-03',
-      endedAt: '2022-02',
+      title: '동북 고등학교',
+      subTitle: '자연계',
+      startedAt: '2012-03',
+      endedAt: '2015-03',
     },
   ],
 };

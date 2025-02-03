@@ -13,9 +13,10 @@ const experience: IExperience.Payload = {
       position: 'Back-End 개발자',
       startedAt: '2022-10',
       descriptions: [
-        '티맵 신규 서비스인 화물서비스 런칭 및 개발',
-        '운전점수 개발',
-        'TMap Open API 개발',
+        '국내 1위 지도 서비스 국민 네비게이션 기업 티맵모빌리티 (MAU 1,500만명, 유저 2,000만명)',
+        '티맵 신규 서비스 화물서비스 런칭 및 개발',
+        '티맵 운전점수 개발',
+        'TMAP OPEN API 개발',
       ],
       skillKeywords: [
         'Kotlin',
@@ -26,6 +27,9 @@ const experience: IExperience.Payload = {
         'DataDog',
         'DynamoDB',
         'Kafka',
+        'ArgoCD',
+        'Jenkins',
+        'Kubernetes',
       ],
       logo: tmapLogo,
     },
@@ -35,7 +39,7 @@ const experience: IExperience.Payload = {
       startedAt: '2021-02',
       endedAt: '2022-09',
       descriptions: [
-        'NHN Dooray! 서비스 20개 중 홈/게시판 서비스 신규 개발 및 유지보수',
+        'NHN Dooray! 홈/게시판 서비스 신규 개발 및 유지보수',
 
         '한국은행 두레이 전환을 위한 인사시스템 연동과 관리자화면 구축',
       ],

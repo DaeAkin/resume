@@ -88,9 +88,6 @@ const etc: ISkill.Skill = {
       title: 'Git / Github',
     },
     {
-      title: 'Agile',
-    },
-    {
       title: 'Bitbucket',
     },
     {
@@ -98,6 +95,9 @@ const etc: ISkill.Skill = {
     },
     {
       title: 'Docker',
+    },
+    {
+      title: 'Kafka',
     },
   ],
 };

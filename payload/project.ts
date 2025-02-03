@@ -11,7 +11,7 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: 'TMap Open API 개발',
+      title: 'TMAP OPEN API 개발',
       startedAt: '2024-12',
       // endedAt: '2024-05',
       where: '티맵 모빌리티',
@@ -22,7 +22,11 @@ const project: IProject.Payload = {
           descriptions: [
             {
               content:
-                'API 사용량과 장애율 모니터링을 위해 OpenMetrics 도입함. 로그 기반 방식 대비 비용을 크게 절감하며 운영 효율을 높임',
+                '기존 로그 기반 모니터링은 대용량 로그 수집 및 분석으로 인해 높은 운영 비용과 낮은 효율성을 유발, API 사용량과 장애율 모니터링을 위해 OpenMetrics 도입함. 로그 기반 방식 대비 비용을 크게 절감하며 운영 효율을 높임',
+            },
+            {
+              content:
+                '사내 타운홀 기술세션에서 발표를 통해 다른 팀들과 지식 공유 및 사내 모니터링 표준화에 기여함',
             },
           ],
         },
@@ -34,6 +38,11 @@ const project: IProject.Payload = {
       // endedAt: '2024-05',
       where: '티맵 모빌리티',
       descriptions: [
+        {
+          content:
+            '하루 생성되는 2,000만개의 주행 이력 데이터를 저장 및 처리를 위한 아키텍처 설계 및 개발',
+          weight: 'BOLD',
+        },
         {
           content: 'IDC 센터에서 AWS로 마이그레이션 이전 작업 진행',
           weight: 'BOLD',
@@ -72,30 +81,52 @@ const project: IProject.Payload = {
       where: '티맵 모빌리티',
       descriptions: [
         {
+          content: '"티맵 화물" 정식 출시',
+          href: 'https://it.chosun.com/news/articleView.html?idxno=2023020900990',
+        },
+        {
+          content:
+            '신규 서비스 특성상 빠른 개발을 위해 비즈니스 요구사항을 우선시하고 팀 간 긴밀한 커뮤니케이션으로, 프로젝트 전반의 효율성을 높이고 고객 만족도 및 비즈니스 가치를 극대화하였음',
+          weight: 'BOLD',
+        },
+        {
           content: 'SMS/알림톡 Third Party API 외부 연동',
+          descriptions: [
+            {
+              content: '운송 진행 상태를 실시간으로 고객과 차주에게 안내하도록 구현',
+            },
+            {
+              content: '접수/배차/완료 단계를 자동 알림화하여 고객만족도 및 업무 효율 증가',
+            },
+          ],
         },
         {
-          content: '재무 회계 처리 연동',
-        },
-        {
-          content: '차주에게 자동으로 운임비를 지급하는 지급이체 배치 기능 개발',
+          content: '지급이체 배치 기능 개발(운임비 자동 지급)',
+          descriptions: [
+            {
+              content: '차주에게 운임비를 자동 지급하는 배치 프로세스 구현',
+            },
+            {
+              content: '지급 지연, 오류를 최소화하여 신뢰도 및 업무 효율 상승',
+            },
+            {
+              content: '연 지급액 3,000억을 오송금 없이 정확하게 지급',
+            },
+          ],
         },
         {
           content: '주선사 권한 기능 개발',
           descriptions: [
             {
-              content: '권한을 분리함으로서 주선업무 효율화 증대',
+              content: '주선사의 권한을 별도 설정·관리하여 불필요한 권한 노출 최소화',
             },
             {
-              content: 'ITGC 내부회계관리 대응',
+              content: '주선 업무 프로세스 효율화',
             },
           ],
         },
         {
-          content: '비회원이 화물을 접수할 수 있는 기능 개발',
-        },
-        {
-          content: '화물 관제 기능 개발',
+          content: '화물 관제 기능 개발 (POC)',
           descriptions: [
             {
               content:
@@ -104,10 +135,16 @@ const project: IProject.Payload = {
           ],
         },
         {
-          content: '산재보험료 기능 개발',
-        },
-        {
-          content: '차입통장 (마이너스통장) 기능 개발',
+          content: 'CTI(Computer Telephony Integration) 솔루션 내재화',
+          descriptions: [
+            {
+              content:
+                '고객 상담 자동화를 위해 CTI 시스템을 티맵 화물에 통합하여 인바운드/아웃바운드 콜과 고객 정보를 실시간으로 연동',
+            },
+            {
+              content: '상담 효율 향상 및 고객 만족도 증대',
+            },
+          ],
         },
       ],
     },

@@ -1,20 +1,26 @@
 import { IPresentation } from '../component/presentation/IPresentation';
 
 const presentation: IPresentation.Payload = {
-  disable: true,
+  disable: false,
 
   list: [
     {
-      title: 'Lorem ipsum',
-      subTitle: 'consectetur adipiscing elit',
-      at: '2017-10',
+      title: '인덕대학교 컴퓨터소프트웨어학과 특강 - 2023',
+      subTitle: '인덕대학교 컴퓨터소프트웨어학과 재학생들 대상 취업 특강',
+      at: '2023-11',
       descriptions: [
         {
-          content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+          content: '개발자 커리어 및 직무 특강, QnA (1시간)',
         },
+      ],
+    },
+    {
+      title: '인덕대학교 컴퓨터소프트웨어학과 특강 - 2022',
+      subTitle: '인덕대학교 컴퓨터소프트웨어학과 재학생들 대상 취업 특강',
+      at: '2022-11',
+      descriptions: [
         {
-          content: 'Slideshare:',
-          postHref: 'https://www.slideshare.net//',
+          content: '개발자 커리어 및 직무 특강, QnA (1시간)',
         },
       ],
     },

@@ -5,6 +5,11 @@ const article: IArticle.Payload = {
 
   list: [
     {
+      content: '일 잘하는 개발자 되기 (feat.카이젠저니) (2024.05.03)',
+      href:
+        'https://donghyeon.dev/%EC%9D%BC%EC%83%81/2024/05/03/%EC%9D%BC-%EC%9E%98%ED%95%98%EB%8A%94-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EB%90%98%EA%B8%B0-(feat.%EC%B9%B4%EC%9D%B4%EC%A0%A0%EC%A0%80%EB%8B%88)/',
+    },
+    {
       content: '익명클래스의 메모리 누수 (2021.12.11)',
       href:
         'https://donghyeon.dev/java/2021/12/11/%EC%9D%B5%EB%AA%85%ED%81%B4%EB%9E%98%EC%8A%A4%EC%9D%98-%EB%A9%94%EB%AA%A8%EB%A6%AC-%EB%88%84%EC%88%98/',
