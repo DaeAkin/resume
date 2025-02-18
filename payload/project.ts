@@ -208,10 +208,6 @@ const project: IProject.Payload = {
               href:
                 'https://donghyeon.dev/junit/2021/10/17/%EB%82%99%EA%B4%80%EC%A0%81%EB%9D%BD-%ED%85%8C%EC%8A%A4%ED%8A%B8%ED%95%98%EA%B8%B0/',
             },
-            {
-              content:
-                'JPA의 연관관계 맵핑 시  CascadeType.PERSIS를 이용했을 때 자식 엔티티가 삭제 안되는 현상 팀 내 공유',
-            },
           ],
         },
       ],
