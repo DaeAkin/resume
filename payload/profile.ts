@@ -11,7 +11,7 @@ const profile: IProfile.Payload = {
   image,
   name: {
     title: '민동현',
-    small: '(Donghyeon Min)',
+    // small: '(Donghyeon Min)',
   },
   contact: [
     {
