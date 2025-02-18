@@ -148,29 +148,29 @@ const project: IProject.Payload = {
         },
       ],
     },
-    {
-      title: 'NHN Dooray! 메신저 슬래시 커맨드',
-      startedAt: '2022-04',
-      endedAt: '2022-09',
-      where: 'NHN SOFT',
-      descriptions: [
-        {
-          content: 'NHN 사내용 슬래시 커맨드 개발',
-          weight: 'BOLD',
-          descriptions: [
-            {
-              content: '사내 정보 시스템 슬래시 커맨드 명령어 개발',
-            },
-          ],
-        },
-        {
-          content: '도메인 변경을 최소화 하기 위해 헥사고날 아키텍처 도입',
-        },
-        {
-          content: '사내 시스템 API 연동',
-        },
-      ],
-    },
+    // {
+    //   title: 'NHN Dooray! 메신저 슬래시 커맨드',
+    //   startedAt: '2022-04',
+    //   endedAt: '2022-09',
+    //   where: 'NHN SOFT',
+    //   descriptions: [
+    //     {
+    //       content: 'NHN 사내용 슬래시 커맨드 개발',
+    //       weight: 'BOLD',
+    //       descriptions: [
+    //         {
+    //           content: '사내 정보 시스템 슬래시 커맨드 명령어 개발',
+    //         },
+    //       ],
+    //     },
+    //     {
+    //       content: '도메인 변경을 최소화 하기 위해 헥사고날 아키텍처 도입',
+    //     },
+    //     {
+    //       content: '사내 시스템 API 연동',
+    //     },
+    //   ],
+    // },
     {
       title: 'NHN Dooray! 홈/게시판',
       startedAt: '2021-02',

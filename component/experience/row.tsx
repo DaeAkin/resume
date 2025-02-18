@@ -97,7 +97,7 @@ function createWorkingPeriod(startedAtString: string, endedAtString?: string) {
   return (
     <Row>
       <Col md={12} xs={isWorking ? 7 : 9}>
-        <h4 style={Style.gray}>{periodTitle}</h4>
+        <h5 style={Style.gray}>{periodTitle}</h5>
       </Col>
       <Col md={12} xs={isWorking ? 5 : 3} className="text-md-right text-center">
         {isWorking ? (

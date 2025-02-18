@@ -30,7 +30,7 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
         <Col md={9} sm={12}>
           {createNameArea(name)}
           {createProfileContactMap(contact)}
-          {createNoticeArea(notice)}
+          {/* {createNoticeArea(notice)} */}
         </Col>
       </Row>
     </div>
