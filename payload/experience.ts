@@ -15,7 +15,7 @@ const experience: IExperience.Payload = {
       descriptions: [
         '국내 1위 지도 서비스 국민 네비게이션 기업 티맵모빌리티 (MAU 1,500만명, 유저 2,000만명)',
         '티맵 신규 서비스 화물서비스 런칭 및 개발',
-        '티맵 운전점수 개발',
+        '티맵 운전점수/운전습관 개발',
         'TMAP OPEN API 개발',
       ],
       skillKeywords: [
@@ -30,6 +30,12 @@ const experience: IExperience.Payload = {
         'ArgoCD',
         'Jenkins',
         'Kubernetes',
+        'Apache Flink',
+        'Scala',
+        'OpenMetrics',
+        'Grafana',
+        'Airflow',
+        'Spark',
       ],
       logo: tmapLogo,
     },

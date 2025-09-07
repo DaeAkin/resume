@@ -11,6 +11,44 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: '운전습관 개발',
+      startedAt: '2025-03',
+      where: '티맵 모빌리티',
+      descriptions: [
+        {
+          content: '실시간 모니터링 시스템 구축',
+          weight: 'BOLD',
+          descriptions: [
+            {
+              content:
+                'Apache Flink 운전습관 위반검출 파이프라인에 OpenMetrics 기반 실시간 메트릭 수집 기능 개발',
+            },
+            {
+              content: 'DataDog/Grafana 대시보드로 로직 변경 시 즉시 영향도 측정 가능',
+            },
+            {
+              content: '데이터 기반 실시간 모니터링으로 로직 최적화 판단 기준 정량화 및 체계화',
+            },
+          ],
+        },
+        {
+          content: '검출 알고리즘 정확도 개선',
+          weight: 'BOLD',
+          descriptions: [
+            {
+              content: 'GPS 신호 불안정 환경에서 발생하는 과속 오검출 문제 해결',
+            },
+            {
+              content: 'MapLink 매칭 알고리즘 최적화로 주행거리 계산 정확도 향상',
+            },
+            {
+              content: 'VOC 건수 월 20% 감소를 통한 고객 만족도 및 운영 효율성 개선',
+            },
+          ],
+        },
+      ],
+    },
+    {
       title: 'TMAP OPEN API 개발',
       startedAt: '2024-12',
       // endedAt: '2024-05',
@@ -26,14 +64,14 @@ const project: IProject.Payload = {
             },
             {
               content:
-                '사내 타운홀 기술세션에서 발표를 통해 다른 팀들과 지식 공유 및 사내 모니터링 표준화에 기여함',
+                '사내 타운홀 기술세션에서 발표를 통해 다른 팀들과 지식 공유 및 사내 모니터링 표준화에 기여함 (전체 Datadog 로그 비용 절감)',
             },
           ],
         },
       ],
     },
     {
-      title: '티맵 모빌리티 운전점수 개발',
+      title: '운전점수 개발',
       startedAt: '2024-06',
       // endedAt: '2024-05',
       where: '티맵 모빌리티',
@@ -226,9 +264,9 @@ const project: IProject.Payload = {
             { content: 'Vue.js를 이용한 한국은행의 두레이 회원가입 및 관리자 화면 개발' },
           ],
         },
-        {
-          content: '다중 데이터베이스 트랜잭션 롤백 이슈 해결',
-        },
+        // {
+        //   content: '다중 데이터베이스 트랜잭션 롤백 이슈 해결',
+        // },
         {
           content: 'NHN 협업툴 두레이 한국은행도 쓴다',
           href: 'https://zdnet.co.kr/view/?no=20220121160836',
