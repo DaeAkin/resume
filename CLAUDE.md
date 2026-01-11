@@ -119,3 +119,82 @@ To deploy to GitHub Pages:
 3. Run `npm run export` to generate static files
 4. Commit and push the `docs/` directory
 5. Access your resume at the configured URL
+
+## Resume Content Guidelines
+
+When updating resume content in payload files (especially `experience.ts`, `project.ts`, `openSource.ts`), follow these guidelines to create effective, professional descriptions.
+
+### Writing Framework: Problem → Solution → Result
+
+Use a **bulleted structure** to describe each experience or project:
+
+```
+• [Problem context]: What situation or challenge existed
+• [Solution/Action]: What you did to address it (technologies, approaches)
+• [Result/Impact]: Quantifiable outcomes and business impact
+```
+
+### Good Example
+
+```
+• 서비스 성장으로 트래픽 10배 증가, 서버 응답 지연 문제 발생 (평균 3초)
+• Redis 캐싱 레이어 설계 및 도입, N+1 쿼리 문제 해결
+• 응답시간 85% 단축 (3초→0.5초), 인프라 비용 40% 절감
+```
+
+### Key Principles
+
+1. **Include the problem context**: Without context, achievements lack meaning
+   - ❌ "Redis 도입" → Why? So what?
+   - ✅ "트래픽 증가로 인한 응답 지연 문제를 Redis 캐싱으로 해결"
+
+2. **Use quantifiable results**: Numbers make impact concrete
+   - Performance metrics: "응답시간 70% 개선", "처리량 3배 증가"
+   - Business metrics: "사용자 10만 → 50만 증가", "이탈률 30% 감소"
+   - Efficiency metrics: "배포 시간 2시간 → 15분", "개발 속도 40% 향상"
+   - Cost metrics: "서버 비용 40% 절감", "인프라 비용 월 500만원 절감"
+
+3. **Write naturally without labels**: Don't use brackets like [문제], [해결], [성과]
+   - ❌ "[문제] 응답 지연 발생 [해결] Redis 도입 [성과] 85% 개선"
+   - ✅ Use natural bullet points with clear flow (see example above)
+
+4. **Show problem-solving ability**: Demonstrate technical judgment and decision-making
+   - Not just "what you did" but "why it mattered" and "what impact it had"
+   - Position yourself as a problem solver, not just a task executor
+
+### Template Variations
+
+**For major achievements** (3 bullets):
+```
+• [Context/Problem with specific metrics]
+• [Technical solution with key technologies/approaches]
+• [Quantified results and business impact]
+```
+
+**For smaller items** (1-2 bullets):
+```
+• [Solution] to [problem], achieving [quantified result]
+```
+
+**For technical implementations**:
+```
+• [Technology/System] 설계 및 구축하여 [business outcome]
+  - [Technical detail 1]
+  - [Technical detail 2]
+  - [Quantified result]
+```
+
+### What to Avoid
+
+- ❌ Labels in brackets: [문제], [해결], [성과] - too formal and disrupts reading flow
+- ❌ Vague statements: "성능 개선", "사용자 경험 향상" without numbers
+- ❌ Technology lists without context: "React, TypeScript, AWS 사용"
+- ❌ Tasks without outcomes: "API 개발", "테스트 코드 작성"
+
+### What to Emphasize
+
+- ✅ Problem context that shows why work mattered
+- ✅ Specific, quantifiable results (%, numbers, time saved)
+- ✅ Business impact beyond technical metrics
+- ✅ Scale indicators (users, traffic, data volume)
+- ✅ Technical decisions and their rationale
