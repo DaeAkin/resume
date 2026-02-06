@@ -16,6 +16,72 @@ const project: IProject.Payload = {
       where: '티맵 모빌리티',
       descriptions: [
         {
+          content: 'Kafka Offset Rewind 장애 복구 정합성 해결',
+          weight: 'BOLD',
+          descriptions: [
+            {
+              content:
+                '장애 복구 시 일 1,000만 건 중 40%(400만 건)의 주행 데이터가 비정상 재생성되는 10년간 미해결 레거시 이슈',
+            },
+            {
+              content:
+                'DynamoDB 대신 RDB 기반 테스트 환경 구축, 리텐션 무제한 신규 MSK 클러스터로 정합성 검증 체계 마련',
+            },
+            {
+              content:
+                'Flink Watermark 설정 수정으로 문제 해결, 장애 복구 시 데이터 정합성 99.9% 달성',
+            },
+          ],
+        },
+        {
+          content: '맵매칭 로직 안정화',
+          weight: 'BOLD',
+          descriptions: [
+            {
+              content:
+                'GPS 신호 불안정/터널 환경에서 발생하는 과속 오검출 및 주행 이력 미생성 문제 해결',
+            },
+            {
+              content: 'MAX_MATCH_DISTANCE 파라미터 도입 및 터널 구간 위반검출 제외 로직 추가',
+            },
+            {
+              content: '주행 이력 미생성 관련 VOC 월 10건 → 0건으로 완전 해소',
+            },
+          ],
+        },
+        {
+          content: 'CS 처리 비용 절감',
+          weight: 'BOLD',
+          descriptions: [
+            {
+              content:
+                'VOC 대응 시 Superset 질의 및 Airflow DAG 가공으로 인한 지속적 비용 발생 문제',
+            },
+            {
+              content: '스퀘어어드민에서 위반요소 상세 정보를 직접 조회할 수 있도록 개선',
+            },
+            {
+              content: '월 500만원 인프라 비용 절감, CS 처리 시간 2분 → 1분으로 50% 단축',
+            },
+          ],
+        },
+        {
+          content: '로컬 디버깅 환경 구축',
+          weight: 'BOLD',
+          descriptions: [
+            {
+              content:
+                'VOC 발생 시 대량의 GPS raw 데이터를 수작업으로 분석해야 하는 비효율적인 상황',
+            },
+            {
+              content: 'IDE 기반 로컬 환경 및 사용자 GPS 데이터 리플레이 테스트 환경 최초 구성',
+            },
+            {
+              content: 'VOC 건당 처리 시간 20분 → 2분으로 단축 (90% 개선)',
+            },
+          ],
+        },
+        {
           content: '실시간 모니터링 시스템 구축',
           weight: 'BOLD',
           descriptions: [
@@ -25,24 +91,6 @@ const project: IProject.Payload = {
             },
             {
               content: 'DataDog/Grafana 대시보드로 로직 변경 시 즉시 영향도 측정 가능',
-            },
-            {
-              content: '데이터 기반 실시간 모니터링으로 로직 최적화 판단 기준 정량화 및 체계화',
-            },
-          ],
-        },
-        {
-          content: '검출 알고리즘 정확도 개선',
-          weight: 'BOLD',
-          descriptions: [
-            {
-              content: 'GPS 신호 불안정 환경에서 발생하는 과속 오검출 문제 해결',
-            },
-            {
-              content: 'MapLink 매칭 알고리즘 최적화로 주행거리 계산 정확도 향상',
-            },
-            {
-              content: 'VOC 건수 월 20% 감소를 통한 고객 만족도 및 운영 효율성 개선',
             },
           ],
         },
@@ -80,6 +128,22 @@ const project: IProject.Payload = {
           content:
             '하루 생성되는 2,000만개의 주행 이력 데이터를 저장 및 처리를 위한 아키텍처 설계 및 개발',
           weight: 'BOLD',
+        },
+        {
+          content: '운전점수 공통 라이브러리 개발',
+          weight: 'BOLD',
+          descriptions: [
+            {
+              content:
+                '4개 MSA 프로젝트에서 동일한 운전점수 로직을 각각 구현하여 유지보수 비용 증가',
+            },
+            {
+              content: '공통 라이브러리로 모듈화하여 단일 소스로 통합 관리',
+            },
+            {
+              content: '운전점수 2.0 전환 시 라이브러리 1회 수정으로 4개 프로젝트 동시 적용',
+            },
+          ],
         },
         {
           content: 'IDC 센터에서 AWS로 마이그레이션 이전 작업 진행',
