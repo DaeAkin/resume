@@ -16,7 +16,7 @@ const profile: IProfile.Payload = {
   contact: [
     {
       title: 'mindh890@gmail.com',
-      link: '#',
+      link: 'mailto:mindh890@gmail.com',
       icon: faEnvelope,
     },
     {
@@ -46,7 +46,7 @@ const profile: IProfile.Payload = {
     // },
   ],
   notice: {
-    title: '안녕하세요.',
+    title: '대규모 데이터 처리와 운영 안정성을 개선하는 백엔드 개발자',
     icon: faBell,
   },
 };
