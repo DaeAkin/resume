@@ -1,7 +1,7 @@
 import { ISkill } from '../component/skill/ISkill';
 
 const skill: ISkill.Payload = {
-  disable: false,
+  disable: true,
   skills: [
     {
       category: 'Back-end',
