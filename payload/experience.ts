@@ -13,7 +13,8 @@ const experience: IExperience.Payload = {
       position: 'Back-End 개발자',
       startedAt: '2022-10',
       descriptions: [
-        '오너톡 커뮤니티의 데이터 모델·API 설계 및 사내 서비스 연동',
+        // 출처: 티맵모빌리티 2026-08-14 공식 발표 https://www.tmapmobility.com/story/pr/detail/262
+        '월간 활성 사용자(MAU) 1,520만 명 규모의 모빌리티 플랫폼 (2026년 2분기 평균)',
         '티맵 핵심 서비스인 운전습관의 재처리 정합성, VOC 대응 및 운영 관측 체계 개선',
         '운전점수 서비스 내재화·AWS 이전, 계산 로직 공통화 및 데이터 보관 정책 개선',
         'TMAP OPEN API 모니터링 개선 및 티맵 화물 서비스 신규 개발',

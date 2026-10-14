@@ -4,26 +4,6 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: '오너톡 커뮤니티 신규 개발',
-      startedAt: '2026-07',
-      where: '티맵 모빌리티 · 2026년 11월 말 출시 예정',
-      descriptions: [
-        {
-          content:
-            'Kotlin·Spring Boot 3·MySQL 기반으로 게시글·댓글·좋아요의 데이터 모델과 API를 처음부터 직접 설계하고 구현',
-        },
-        {
-          content: '티맵 계정·알림·POI 검색 등 내부 서비스 연동',
-        },
-        {
-          content: '타 팀이 개발한 AWS 기반 이미지 모더레이션 기능을 연동해 유해 이미지 사전 차단',
-        },
-        {
-          content: '타 팀의 기존 썸네일 생성 모듈 공통화를 요청하고 재사용해 중복 개발 방지',
-        },
-      ],
-    },
-    {
       title: '운전습관 개발',
       startedAt: '2025-03',
       where: '티맵 모빌리티',
@@ -183,6 +163,20 @@ const project: IProject.Payload = {
             },
             {
               content: '불필요한 장기 보관 데이터를 정리해 DynamoDB 저장 비용 약 26% 절감',
+            },
+          ],
+        },
+        {
+          content: '팀 공통 AI 개발 컨텍스트 및 계획 수립 스킬 구축',
+          weight: 'BOLD',
+          descriptions: [
+            {
+              content:
+                '운전점수 계산 규칙·아키텍처·DB 구조·운영 주의사항·코드 작성 규칙을 공통 컨텍스트 저장소로 체계화',
+            },
+            {
+              content:
+                '팀의 AI 활용 수준과 결과물 품질 편차를 줄이기 위해, 공통 컨텍스트 기반의 작업 계획을 수립하는 Plan 스킬을 제작하고 팀원들과 공동 사용',
             },
           ],
         },

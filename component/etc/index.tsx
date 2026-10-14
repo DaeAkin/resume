@@ -22,7 +22,7 @@ export const Etc = {
 
 function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
   return (
-    <CommonSection title="ETC">
+    <CommonSection title={payload.sectionTitle || 'ETC'}>
       <EducationRow payload={payload} />
     </CommonSection>
   );
@@ -40,8 +40,8 @@ function EducationRow({ payload }: PropsWithChildren<{ payload: Payload }>) {
 
 function serialize(item: Item): IRow.Payload {
   const DATE_FORMAT = Util.LUXON_DATE_FORMAT;
-  const startedAt = DateTime.fromFormat(item.startedAt, DATE_FORMAT.YYYY_LL).toFormat(
-    DATE_FORMAT.YYYY_DOT_LL,
+  const startedAt = DateTime.fromISO(item.startedAt).toFormat(
+    item.startedAt.length === 10 ? 'yyyy. MM. dd' : DATE_FORMAT.YYYY_DOT_LL,
   );
   const title = (() => {
     if (item.endedAt) {

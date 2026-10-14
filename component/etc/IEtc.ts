@@ -9,6 +9,7 @@ export declare namespace IEtc {
    * @example https://github.com/uyu423/resume-nextjs/blob/master/payload/etc.ts
    */
   export interface Payload extends ICommon.Payload {
+    sectionTitle?: string;
     /** ### 기타 항목 리스트 */
     list: Item[];
   }
@@ -23,7 +24,7 @@ export declare namespace IEtc {
     /**
      *  ### 기타 항목 시작 시점
      *
-     * @format YYYY-MM
+     * @format YYYY-MM or YYYY-MM-DD
      * @example '2014-09'
      */
     startedAt: string;
